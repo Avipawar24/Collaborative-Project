@@ -38,3 +38,80 @@
   display: none;
   }
   }
+ 
+  /* <!-- Second navbar by Moumita Bhattacharjee  --> */
+  
+ .img > img {
+  width: 150px;
+  padding-top: 10px;
+}
+#secnav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  justify-content: baseline;
+  margin-bottom: 10px;
+}
+.attr {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.attr > a{
+  text-decoration: none;
+  color: black;
+}
+.attr :hover{
+text-decoration: underline;
+text-decoration: color(#c40c2f);
+color: #c40c2f;
+font-weight: 800;
+}
+.attr :nth-child(7){
+  color: #c40c2f;
+}
+.search{
+  margin-top: 0px;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid;
+}
+.inpt{
+  border: none;
+  font-size: medium;
+  width: 100px;
+}
+.delbtn{
+  display: flex;
+  gap: 15px;
+  padding-left: 15px;
+  padding-right: 80px;
+  background-color:#c40c2f;
+  border-radius: 20px;
+  line-height: 0;
+  color: aliceblue;
+  margin-left: 10px;
+  font-family:Calibri;
+}
+.material-icons {
+  font-family: 'Material Icons', sans-serif;
+  font-size:25px;
+  margin-top: 14px;
+} 
+.btn2 > h4{
+  font-size:small;
+  font-weight: 800;
+  margin-top: 15px;
+ margin-bottom:15px;
+}
+.btn2 > p{
+ margin-top: 5px;
+ font-size: small;
+ opacity: 90%;
+}
+.second{
+  display: flex;
+  gap: 1px;
+}
