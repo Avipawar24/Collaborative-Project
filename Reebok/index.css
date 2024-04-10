@@ -1,0 +1,40 @@
+.material-icons {
+    font-family: 'Material Icons', sans-serif;
+    font-size:25px;
+    margin-top: 14px;
+  }  
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:#252525;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  #leftnav{
+    color: aliceblue;
+    background-color: #252525;
+  }
+  #rightnav{
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+  
+  }
+  #rightnav > img{
+    width: 60px;
+    object-fit: contain;
+    padding-right: 10px;
+  }
+  hr{
+    opacity: 30%;
+  }
+  @media  screen and (min-width:768px) and (max-width:1023px) {
+  #rightnav{
+    display: none;
+  }
+  }
+  @media  screen and (max-width:767px){
+  #rightnav{
+  display: none;
+  }
+  }
