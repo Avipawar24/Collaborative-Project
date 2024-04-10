@@ -115,3 +115,44 @@ font-weight: 800;
   display: flex;
   gap: 1px;
 }
+
+/* <!-- Third part of the layout created by Rachna  --> */
+#Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  position: relative;
+}
+.offers{
+  position: absolute;
+  color: aliceblue;
+  background-color: rgb(7, 240, 221);
+  background-image: linear-gradient(to bottom right, rgb(51, 245, 51),royalblue);
+  padding: 5px;
+  margin-top: 12px;
+  font-size:small;
+}
+#Container img {
+  width: 100%;
+}
+h4{
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.child {
+  display: flex;
+  position: relative;
+}
+
+.PNG {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.material-symbols-outlined{
+  position: absolute;
+  padding-left:280px;
+  padding-top: 10px;
+}
